@@ -33,7 +33,7 @@ struct MeetingView: View {
                 Text("Speaker 1 of 3")
                 Spacer()
                 Button(action: {}) {
-                    Image(systemName: "foreward.fill")
+                    Image(systemName: "forward.fill")
                 }
                 .accessibilityLabel("Next speaker")
             }
