@@ -12,6 +12,7 @@ struct DailyScrum {
     var attendees: [String]
     var lengthInMinutes: Int
     var theme: Theme
+    
 }
 
 extension DailyScrum {
