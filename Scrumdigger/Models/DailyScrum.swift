@@ -5,7 +5,7 @@
 //  Created by Aroha Design on 13/03/24.
 //
 
-import Foundation
+import SwiftUI
 
 struct DailyScrum {
     var title: String
