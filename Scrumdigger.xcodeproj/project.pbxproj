@@ -20,6 +20,7 @@
 		F2DDE4692BA13C9B00F26E66 /* ScrumdiggerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DDE4682BA13C9B00F26E66 /* ScrumdiggerUITests.swift */; };
 		F2DDE46B2BA13C9B00F26E66 /* ScrumdiggerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DDE46A2BA13C9B00F26E66 /* ScrumdiggerUITestsLaunchTests.swift */; };
 		F2DE02592BA3ED9000616F0C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DE02582BA3ED9000616F0C /* DetailView.swift */; };
+		F2DE025B2BA4090E00616F0C /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DE025A2BA4090E00616F0C /* DetailEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		F2DDE4682BA13C9B00F26E66 /* ScrumdiggerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdiggerUITests.swift; sourceTree = "<group>"; };
 		F2DDE46A2BA13C9B00F26E66 /* ScrumdiggerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdiggerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F2DE02582BA3ED9000616F0C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		F2DE025A2BA4090E00616F0C /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				F20EDF462BA2E2BB00D1F095 /* ScrumsView.swift */,
 				F285080F2BA185AC00A2D337 /* TrailingIconLabelStyle.swift */,
 				F2DE02582BA3ED9000616F0C /* DetailView.swift */,
+				F2DE025A2BA4090E00616F0C /* DetailEditView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 			files = (
 				F22F22902BA147AC006F0B3E /* DailyScrum.swift in Sources */,
 				F2DE02592BA3ED9000616F0C /* DetailView.swift in Sources */,
+				F2DE025B2BA4090E00616F0C /* DetailEditView.swift in Sources */,
 				F28508102BA185AC00A2D337 /* TrailingIconLabelStyle.swift in Sources */,
 				F22F228C2BA1453F006F0B3E /* Theme.swift in Sources */,
 				F20EDF472BA2E2BB00D1F095 /* ScrumsView.swift in Sources */,
