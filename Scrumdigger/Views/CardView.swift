@@ -35,7 +35,7 @@ struct CardView_Previews: PreviewProvider {
     static var scrum = DailyScrum.sampleData[0]
     static var previews: some View {
         CardView(scrum: scrum)
-            .background(scrum.theme.mainColor) // TODO: Not displaying background color from DailyScrum.swift & Theme.swift
+            .background(scrum.theme.mainColor) // TODO: You will need to import the Assets colors
             .previewLayout(.fixed(width: 400, height: 60))
     }
 }
