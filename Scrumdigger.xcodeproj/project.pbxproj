@@ -17,6 +17,8 @@
 		F26C17732BBFCF8800F6D1EE /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C17722BBFCF8800F6D1EE /* ScrumProgressViewStyle.swift */; };
 		F26C17752BBFD0ED00F6D1EE /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C17742BBFD0ED00F6D1EE /* ScrumTimer.swift */; };
 		F26C17772BBFD38D00F6D1EE /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C17762BBFD38D00F6D1EE /* MeetingFooterView.swift */; };
+		F26C177A2BBFD88000F6D1EE /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = F26C17792BBFD88000F6D1EE /* ding.wav */; };
+		F26C177C2BBFDC2B00F6D1EE /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C177B2BBFDC2B00F6D1EE /* AVPlayer+Ding.swift */; };
 		F28508102BA185AC00A2D337 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F285080F2BA185AC00A2D337 /* TrailingIconLabelStyle.swift */; };
 		F2DDE44E2BA13C9900F26E66 /* ScrumdiggerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DDE44D2BA13C9900F26E66 /* ScrumdiggerApp.swift */; };
 		F2DDE4502BA13C9900F26E66 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DDE44F2BA13C9900F26E66 /* MeetingView.swift */; };
@@ -57,6 +59,8 @@
 		F26C17722BBFCF8800F6D1EE /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 		F26C17742BBFD0ED00F6D1EE /* ScrumTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
 		F26C17762BBFD38D00F6D1EE /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
+		F26C17792BBFD88000F6D1EE /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
+		F26C177B2BBFDC2B00F6D1EE /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		F285080F2BA185AC00A2D337 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		F2DDE44A2BA13C9900F26E66 /* Scrumdigger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdigger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2DDE44D2BA13C9900F26E66 /* ScrumdiggerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdiggerApp.swift; sourceTree = "<group>"; };
@@ -118,11 +122,20 @@
 		F22F228A2BA14511006F0B3E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				F26C177B2BBFDC2B00F6D1EE /* AVPlayer+Ding.swift */,
 				F26C17742BBFD0ED00F6D1EE /* ScrumTimer.swift */,
 				F22F228B2BA1453F006F0B3E /* Theme.swift */,
 				F22F228F2BA147AC006F0B3E /* DailyScrum.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		F26C17782BBFD85800F6D1EE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F26C17792BBFD88000F6D1EE /* ding.wav */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		F2DDE4412BA13C9900F26E66 = {
@@ -148,6 +161,7 @@
 		F2DDE44C2BA13C9900F26E66 /* Scrumdigger */ = {
 			isa = PBXGroup;
 			children = (
+				F26C17782BBFD85800F6D1EE /* Resources */,
 				F20EDF452BA2E27A00D1F095 /* Views */,
 				F22F228A2BA14511006F0B3E /* Models */,
 				F2DDE44D2BA13C9900F26E66 /* ScrumdiggerApp.swift */,
@@ -286,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F26C177A2BBFD88000F6D1EE /* ding.wav in Resources */,
 				F2DDE4552BA13C9B00F26E66 /* Preview Assets.xcassets in Resources */,
 				F2DDE4522BA13C9B00F26E66 /* Assets.xcassets in Resources */,
 			);
@@ -327,6 +342,7 @@
 				F2DDE44E2BA13C9900F26E66 /* ScrumdiggerApp.swift in Sources */,
 				F23314142BBE448400C6A4B0 /* ThemeView.swift in Sources */,
 				F22F22942BA14AE2006F0B3E /* CardView.swift in Sources */,
+				F26C177C2BBFDC2B00F6D1EE /* AVPlayer+Ding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
