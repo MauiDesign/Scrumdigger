@@ -43,6 +43,6 @@ struct ScrumsView_Previews: PreviewProvider {
 
 /*
 #Preview {
-    ScrumsView(scrums: DailyScrum.sampleData)
+    ScrumsView(scrums: .constant(DailyScrum.sampleData))
 }
 */
