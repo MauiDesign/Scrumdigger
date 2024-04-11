@@ -24,12 +24,12 @@ struct DailyScrum: Identifiable, Codable {
     var history: [History] = []
     
     init(id: UUID = UUID(), title: String, attendees: [String], lengthInMinutes: Int, theme: Theme) {
-            self.id = id
-            self.title = title
+        self.id = id
+        self.title = title
         self.attendees = attendees.map {Attendee(name: $0)}
-            self.lengthInMinutes = lengthInMinutes
-            self.theme = theme
-        }
+        self.lengthInMinutes = lengthInMinutes
+        self.theme = theme
+    }
     
 }
 
