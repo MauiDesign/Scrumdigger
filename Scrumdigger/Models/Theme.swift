@@ -18,7 +18,7 @@ enum Theme: String, CaseIterable, Identifiable, Codable {
     case oxblood
     case periwinkle
     case poppy
-    case waiporoporo
+    case waiporporo
     case seafoam
     case sky
     case tan
@@ -28,7 +28,7 @@ enum Theme: String, CaseIterable, Identifiable, Codable {
     var accentColor: Color {
         switch self {
         case .bubblegum, .buttercup, .lavender, .karaka, .periwinkle, .poppy, .seafoam, .sky, .tan, .kārikiōrangi, .kowhai: return .black
-        case .tuauri, .mākurakura, .navy, .oxblood, .waiporoporo: return .white
+        case .tuauri, .mākurakura, .navy, .oxblood, .waiporporo: return .white
         }
     }
     var mainColor: Color {
