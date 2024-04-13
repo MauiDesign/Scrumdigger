@@ -23,8 +23,8 @@ struct SpeakerArc: Shape {
         Angle(degrees: startAngle.degrees + degreesPerSpeaker - 1.0)
     }
     
-    func path( in react: CGRect) -> Path {
-        let diameter = min(react.size.width, react.size.height) - 24.0
+    func path( in rect: CGRect) -> Path {
+        let diameter = min(rect.size.width, rect.size.height) - 24.0
         let radius = diameter / 2.0
         let center = CGPoint(x: rect.midX, y: rect.midY)
         return Path { path in
